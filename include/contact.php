@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>SuperTuxKart</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/contact.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -57,7 +57,21 @@
             </article>
         </main>
         <footer>
-
+            <div id="lin"></div>
+            <div id="izq">
+                <h4>
+                    No Name Productions >_
+                </h4>
+                <p>
+                    Valencia, Plaza Mayor Nº 50, 45560 <br>
+                    Spain
+                </p>
+            </div>
+            <div id="drc">
+                <p>
+                    License GPL v3.0 <br>
+                </p>
+            </div>
         </footer>
     </div>
 </body>

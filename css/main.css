@@ -4,13 +4,13 @@
 }
 
 body{
-    background-color: darkslategray;
+    background-color: rgb(32, 24, 57);
 }
 
 #pagina{
     width: 1000px;
     margin: 30px auto;
-    background-color: gray;
+    background-color: rgb(22, 27, 41);
 }
 
 header{
@@ -19,16 +19,24 @@ header{
     background-size: cover;
 }
 
+.menu>a:focus{
+    background-color: rgb(32, 20, 66);
+}
+
 footer{
     height: 225px;
-    background: linear-gradient(gray, darkslategray);
+    background: linear-gradient(rgb(22, 27, 41), rgb(32, 24, 57));
 }
 
 #lin{
-    border-top: 2px solid darkslategray;
+    border-top: 2px solid rgb(32, 24, 57);
     height: 30px;
     width: 700px;
     margin: 20px auto;
+}
+
+footer{
+    color: rgb(22, 27, 41);
 }
 
 #izq{
@@ -36,12 +44,18 @@ footer{
     width: 300px;
     float: left;
     margin: 30px;
+    background: rgb(49, 60, 86);
+    padding: 10px;;
+    box-shadow: 10px 10px 1px rgb(35, 43, 63);
 }
 
 #drc{
-    height: 100px;
-    width: 300px;
+    height: 40px;
+    width: 140px;
     float: right;
     margin: 30px;
     text-align: right;
+    background: rgb(49, 60, 86);
+    padding: 10px;
+    box-shadow: 10px 10px 1px rgb(35, 43, 63);
 }
