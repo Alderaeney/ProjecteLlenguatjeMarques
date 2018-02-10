@@ -1,0 +1,38 @@
+nav{
+    width: 1000px;
+    background: #1f1529;
+}
+
+nav li {
+    display: inline-block;
+
+}
+
+nav li a {
+    text-decoration: none;
+    color: #433057;
+    display: block;
+    padding: 30px 16px;
+}
+
+nav li a:hover{
+    background: #291241;
+}
+
+.dropdown{
+    position: relative;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}

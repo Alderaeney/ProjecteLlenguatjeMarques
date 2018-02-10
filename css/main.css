@@ -19,10 +19,6 @@ header{
     background-size: cover;
 }
 
-.menu>a:focus{
-    background-color: rgb(32, 20, 66);
-}
-
 footer{
     height: 225px;
     background: linear-gradient(rgb(22, 27, 41), rgb(32, 24, 57));
