@@ -63,8 +63,9 @@
                     <input type="submit" id="send" value="Send"><br>
                 </form>
                 <?php
-                    if (isset($_GET["send"])) {
-                        echo "Your message was send.";
+                    $var = $_GET["send"];
+                    if (isset($var)) {
+                        echo "Your message was sent.";
                     }
                 ?>
             </article>
