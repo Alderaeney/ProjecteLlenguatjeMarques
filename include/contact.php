@@ -53,7 +53,20 @@
         </nav>
         <main>
             <article>
-
+                <form action="mailto:clase@airmail.cc" method="get">
+                    <label for="name">Name: </label><br>
+                    <input type="text" name="name" id="name" required><br>
+                    <label for="email">E-mail: </label><br>
+                    <input type="email" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required><br>
+                    <label for="comment">Comment: </label><br>
+                    <textarea name="comment" id="comment" cols="30" rows="10" required></textarea><br>
+                    <input type="submit" id="send" value="Send"><br>
+                </form>
+                <?php
+                    if (isset($_GET["send"])) {
+                        echo "Your message was send.";
+                    }
+                ?>
             </article>
         </main>
         <footer>
