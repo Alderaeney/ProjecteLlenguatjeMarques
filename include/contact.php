@@ -17,39 +17,30 @@
         <header>
             
         </header>
-        <nav class="navbar navbar-inverse">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="../index.html">No Name Prod.</a>
-                </div>
-                <ul class="nav navbar-nav">
-                    <li class="active">
-                        <a href="../index.html">Home</a>
-                    </li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects
-                            <span class="caret"></span>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="../html/supertux.html">SuperTuxKart</a>
-                            </li>
-                            <li>
-                                <a href="#">Page 1-2</a>
-                            </li>
-                            <li>
-                                <a href="#">Page 1-3</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                    <li>
-                        <a href="../html/media.html">Media</a>
-                    </li>
-                </ul>
-            </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">No Name Prod. >_</a>
+                </li>
+                <li class="active">
+                    <a href="#">Home</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Projects
+                    </a>
+                    <ul class="dropdown-content">
+                        <li>
+                            <a href="./html/supertux.html" class="drop-cont">SuperTuxKart</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="./include/contact.php">Contact</a>
+                </li>
+                <li>
+                    <a href="./html/media.html">Media</a>
+                </li>
+            </ul>
         </nav>
         <main>
             <article>
