@@ -20,25 +20,25 @@
         <nav>
             <ul>
                 <li>
-                    <a href="#">No Name Prod. >_</a>
+                    <a href="../index.html">No Name Prod. >_</a>
                 </li>
-                <li class="active">
-                    <a href="#">Home</a>
+                <li>
+                    <a href="../index.html">Home</a>
                 </li>
                 <li class="dropdown">
                     <a href="#">Projects
                     </a>
                     <ul class="dropdown-content">
                         <li>
-                            <a href="./html/supertux.html" class="drop-cont">SuperTuxKart</a>
+                            <a href="../html/supertux.html" class="drop-cont">Prototype Lost Age</a>
                         </li>
                     </ul>
                 </li>
                 <li>
-                    <a href="./include/contact.php">Contact</a>
+                    <a href="#" class="active">Contact</a>
                 </li>
                 <li>
-                    <a href="./html/media.html">Media</a>
+                    <a href="../html/media.html">Media</a>
                 </li>
             </ul>
         </nav>

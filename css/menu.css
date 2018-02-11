@@ -10,10 +10,14 @@ nav li {
 
 nav li a {
     text-decoration: none;
-    color: #433057;
+    color: #69587a;
     display: block;
     padding: 30px 16px;
     transition: .5s;
+}
+
+.active{
+    background: #291241;
 }
 
 nav li a:hover{
