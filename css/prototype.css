@@ -13,5 +13,10 @@ header{
 }
 
 #scripting {
-
+    padding-left: 190px;
+    background: url("../img/script.png") no-repeat center left, rgb(49, 60, 86);
+    background-position-x: 20px;
+    background-size: 150px 150px;
+    padding-right: 20px;
+    padding-top: 50px;
 }

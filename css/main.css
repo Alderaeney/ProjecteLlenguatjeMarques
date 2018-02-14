@@ -1,7 +1,10 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'Noto Sans', sans-serif;
 }
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
 
 body{
     background-color: rgb(32, 24, 57);
@@ -32,7 +35,7 @@ header h1{
 header p{
     float: right;
     margin: 30px;
-    margin-left: 400px;
+    margin-left: 500px;
     width: fit-content;
     background-color: rgb(60, 51, 88);
     text-align: center;
@@ -45,6 +48,11 @@ article h2{
     text-align: right;
     margin: 40px;
     color: rgb(49, 60, 86);
+}
+
+a{
+    color: rgb(27, 22, 42);
+    text-decoration: none;
 }
 
 article p{

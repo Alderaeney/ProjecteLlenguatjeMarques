@@ -8,12 +8,15 @@ nav li {
 
 }
 
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
 nav li a {
     text-decoration: none;
     color: #69587a;
     display: block;
     padding: 30px 16px;
     transition: .5s;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .active{
