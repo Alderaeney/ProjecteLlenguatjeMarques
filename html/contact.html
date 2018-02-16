@@ -28,7 +28,7 @@
                     </a>
                     <ul class="dropdown-content">
                         <li>
-                            <a href="../html/supertux.html" class="drop-cont">Prototype Lost Age</a>
+                            <a href="./prototype.html" class="drop-cont">Prototype Lost Age</a>
                         </li>
                     </ul>
                 </li>
@@ -36,20 +36,19 @@
                     <a href="#" class="active">Contact</a>
                 </li>
                 <li>
-                    <a href="../html/media.html">Media</a>
+                    <a href="./media.html">Media</a>
                 </li>
             </ul>
         </nav>
         <main>
             <article>
                 <form  action="mailto:clase@airmail.cc" method="get" enctype="text/plain">
-                <input type="hidden" name="action" value="submit">
                 Your name:<br>
-                <input name="name" type="text" value="" size="30"/><br>
+                <input name="name" type="text" value="" required/><br>
                 Your email:<br>
-                <input name="email" type="text" value="" size="30"/><br>
+                <input name="email" type="text" value="" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"/><br>
                 Your message:<br>
-                <textarea name="message" rows="7" cols="30"></textarea><br>
+                <textarea name="message" rows="7" cols="30" required></textarea><br>
                 <input type="submit" value="Send email"/>
                 </form> 
             </article>
