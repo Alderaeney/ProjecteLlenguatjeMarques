@@ -5,11 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>SuperTuxKart</title>
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/contact.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/menu.css">
     <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
 </head>
 <body>
@@ -44,21 +42,16 @@
         </nav>
         <main>
             <article>
-                <form action="mailto:clase@airmail.cc" method="get">
-                    <label for="name">Name: </label><br>
-                    <input type="text" name="name" id="name" required><br>
-                    <label for="email">E-mail: </label><br>
-                    <input type="email" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required><br>
-                    <label for="comment">Comment: </label><br>
-                    <textarea name="comment" id="comment" cols="30" rows="10" required></textarea><br>
-                    <input type="submit" id="send" value="Send"><br>
-                </form>
-                <?php
-                    $var = $_GET["send"];
-                    if (isset($var)) {
-                        echo "Your message was sent.";
-                    }
-                ?>
+                <form  action="mailto:clase@airmail.cc" method="get" enctype="text/plain">
+                <input type="hidden" name="action" value="submit">
+                Your name:<br>
+                <input name="name" type="text" value="" size="30"/><br>
+                Your email:<br>
+                <input name="email" type="text" value="" size="30"/><br>
+                Your message:<br>
+                <textarea name="message" rows="7" cols="30"></textarea><br>
+                <input type="submit" value="Send email"/>
+                </form> 
             </article>
         </main>
         <footer>
