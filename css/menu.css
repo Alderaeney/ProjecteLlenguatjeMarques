@@ -3,9 +3,13 @@ nav{
     background: #1f1529;
 }
 
+.color-drop {
+    background: white;
+}
+
 nav li {
     display: inline-block;
-
+    background: #1f1529;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans');
@@ -17,6 +21,7 @@ nav li a {
     padding: 30px 16px;
     transition: .5s;
     font-family: 'Noto Sans', sans-serif;
+    background: #1f1529;
 }
 
 .active{
@@ -48,3 +53,4 @@ nav li a:hover{
 .drop-cont:hover{
     background: rgb(255, 255, 255);
 }
+

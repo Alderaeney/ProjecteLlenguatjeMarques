@@ -1,0 +1,28 @@
+header{
+    background: url("../img/header.png") no-repeat center;
+    background-size: cover;
+}
+
+article p{
+    height: 270px;
+    background-color: rgb(49, 60, 86);
+    text-align: right;
+}
+
+span{
+    display: block;
+    width: 40%;
+    margin: 10px auto;
+    font-weight: bold;
+}
+
+video{
+    display: block;
+    margin: 0 auto;
+}
+
+audio{
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+}

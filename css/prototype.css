@@ -3,6 +3,10 @@ header{
     background-size: cover;
 }
 
+article p{
+    height: 120px;    
+}
+
 #lost{
     padding-right: 170px;
     background: url("../img/sprite-nobg.gif") no-repeat center right, rgb(49, 60, 86);

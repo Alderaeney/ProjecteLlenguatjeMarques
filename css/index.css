@@ -3,6 +3,10 @@ header{
     background-size: cover;
 }
 
+article p{
+    height: 120px;    
+}
+
 #love{
     background: url("../img/love.png") no-repeat center right, rgb(49, 60, 86);
     background-size: 150px 150px;
