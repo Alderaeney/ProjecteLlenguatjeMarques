@@ -1,9 +1,50 @@
-input{
+form {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.input{
     border: gray solid 2px;
     border-radius: 4px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    background: lightslategray;
 }
 
-input:valid{
+#name, #email {
+    width: 300px;
+    height: 25px;
+    padding: 10px;
+}
+
+#message{
+    width: 300px;
+    padding: 10px;
+}
+
+.input:required{
+    border: lightblue solid 1px;
+}
+
+.input:valid{
     border: lightgreen solid 2px; 
+}
+
+.input:invalid{
+    border: red solid 1px;
+}
+
+h1 {
+    width: fit-content;
+    margin: 10px;
+    color: rgb(49, 60, 86);
+}
+
+#submit{
+    width: fit-content;
+    padding: 10px;
+    margin: 20px 30%;
+    background: lightslategray;
+    color: darkslategray;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }

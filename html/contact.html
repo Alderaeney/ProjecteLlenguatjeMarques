@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>SuperTuxKart</title>
+    <title>Contact - No Name Prod.</title>
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/contact.css">
     <link rel="stylesheet" href="../css/menu.css">
@@ -43,13 +43,13 @@
         <main>
             <article>
                 <form  action="mailto:clase@airmail.cc" method="get" enctype="text/plain">
-                Your name:<br>
-                <input name="name" type="text" value="" required/><br>
-                Your email:<br>
-                <input name="email" type="text" value="" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"/><br>
-                Your message:<br>
-                <textarea name="message" rows="7" cols="30" required></textarea><br>
-                <input type="submit" value="Send email"/>
+                <h1>Your name:</h1><br>
+                <input name="name" type="text" value="" id="name" class="input" required/><br>
+                <h1>Your email:</h1><br>
+                <input name="email" type="text" value="" id="email" class="input" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"/><br>
+                <h1>Your message:</h1><br>
+                <textarea name="message" rows="7" cols="30" id="message" class="input" required></textarea><br>
+                <input type="submit" id="submit" value="Send email"/>
                 </form> 
             </article>
         </main>
