@@ -1,25 +1,31 @@
+/* Estil per a la página 'index.html' */
+
+/* Imatge per al header */
 header{
     background: url("../img/header.png") no-repeat center;
     background-size: cover;
 }
 
+/* Altura dels 'p' dins de 'article' */
 article p{
     height: 120px;    
 }
 
+/* Estil del 'p' #love */
 #love{
-    background: url("../img/love.png") no-repeat center right, rgb(49, 60, 86);
-    background-size: 150px 150px;
-    padding-top: 50px;
-    padding-left: 20px;
-    padding-right: 170px;
+    background: url("../img/love.png") no-repeat center right, rgb(49, 60, 86); /* Imatge de fons amb un color per a la resta de la caixa */
+    background-size: 150px 150px; /* Tamany del fons */
+    padding-top: 50px; /* Separació del borde superior per a centrar el text */
+    padding-left: 20px; /* Separació del borde esquerre per a que no estiga tocant el borde */
+    padding-right: 170px; /* Separació a la dreta per a colocar la imatge */
 }
 
+/* Estil del 'p' #script */
 #script{
-    padding-left: 170px;
-    padding-right: 20px;
-    text-align: right;
-    background: url("../img/lua.png") no-repeat center left, rgb(49, 60, 86);
-    background-size: 150px 150px;
-    padding-top: 80px;
+    padding-left: 170px; /* Separació a l'esquerra per a colocar l'imatge de fons */
+    padding-right: 20px; /* Separació a la dreta per a que no toque el text el borde */
+    text-align: right; /* Alinear el text a la dreta */
+    background: url("../img/lua.png") no-repeat center left, rgb(49, 60, 86); /* Imatge de fons amb color en la resta de la caixa */
+    background-size: 150px 150px; /* Tamany de l'imatge de fons */
+    padding-top: 80px; /* Separació del borde superior per a centrar el text */
 }

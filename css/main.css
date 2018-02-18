@@ -1,102 +1,116 @@
+/* Estil general de totes les págines */
+
+/* Llevant els 'margin' i 'padding' que te el navegador per defecte */
 *{
     margin: 0px;
     padding: 0px;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans', sans-serif; /* Font per defecte de tot el contingut */
 }
 
+/* Imprtació de la font per defecte de la página */
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans');
 
+/* Color de fons de la página */
 body{
     background-color: rgb(32, 24, 57);
 }
 
+/* Declaració de l'estil de la página en format 'boxed' */
 #pagina{
     width: 1200px;
     margin: 30px auto;
     background-color: rgb(22, 27, 41);
 }
 
+/* Estil comú del header a totes les págines */
 header{
     height: 300px;
     background-size: cover;
 }
 
+/* Estil del 'h1' al header */
 header h1{
-    width: fit-content;
-    margin: 30px;
-    font-size: 27px;
-    background: rgb(60, 51, 88);
     float: right;
-    color: rgb(27, 22, 42); 
+    width: fit-content; /* Ample */
+    margin: 30px; /* Marge per tots els costats */
+    font-size: 27px;
+    background: rgb(60, 51, 88); /* Color de fons */
+    float: right;
+    color: rgb(27, 22, 42); /* Color de la lletra */ 
     padding: 20px;
-    text-align: center;
+    text-align: center; /* Per a centrar el text dins de la seua caixa */
 }
 
+/* Estil del 'p' al header */
 header p{
-    float: right;
+    float: right; /* Per a que estiga a la dreta */
     margin: 30px;
-    margin-left: 500px;
-    width: fit-content;
-    background-color: rgb(60, 51, 88);
-    text-align: center;
+    margin-left: 700px; /* Per a que es quede a la dreta ja que per defecte es queda al costat del h1 */
+    width: fit-content; /* Ample */
+    background-color: rgb(60, 51, 88); /* Color de fons, igual que el de 'h1' */
+    text-align: center; /* Centrar el text dins la caixa */
     font-size: 20px;
     padding: 20px;
     color: rgb(27, 22, 42);    
 }
 
+/* Estil dels 'h2' dels 'article' */
 article h2{
-    text-align: right;
-    margin: 40px;
-    color: rgb(49, 60, 86);
-    background-color: rgb(22, 27, 41);
+    text-align: right; /* Per a alinear a la dreta */
+    margin: 40px; /* Marge per a que estiga separat del 'p' */
+    color: rgb(49, 60, 86); /* Color de la lletra */
+    background-color: rgb(22, 27, 41); /* Color de fons, igual que el de la página, per evitar errors del navegador */
 }
 
+/* Estil dels links en la página */
 a{
-    color: rgb(27, 22, 42);
-    text-decoration: none;
+    color: rgb(27, 22, 42); /* Color de lletra */
+    text-decoration: none; /* Llevar la decoració */
 }
 
+/* Estil dels 'p' dels 'article' */
 article p{
-    width: 800px;
-    margin: 40px auto;
-    color: rgb(27, 22, 42);
+    width: 800px; /* Tamany de la caixa */
+    margin: 40px auto; /* Centrar la caixa y donar-li marge superior i inferior */
+    color: rgb(27, 22, 42); /* Color del text */
     font-size: 17px;
-    box-shadow: 10px 10px 1px rgb(35, 43, 63);
+    box-shadow: 10px 10px 1px rgb(35, 43, 63); /* Una sombra per a la caixa */
 }
 
+/* Estil general del 'footer' */
 footer{
-    height: 225px;
-    background: linear-gradient(rgb(22, 27, 41), rgb(32, 24, 57));
-}
-
-#lin{
-    border-top: 2px solid rgb(32, 24, 57);
-    height: 30px;
-    width: 700px;
-    margin: 20px auto;
-}
-
-footer{
+    height: 225px; /* Altura del 'footer' */
+    background: linear-gradient(rgb(22, 27, 41), rgb(32, 24, 57)); /* Color de fons amb gradient */
     color: rgb(22, 27, 41);
 }
 
-#izq{
-    height: 100px;
-    width: 300px;
-    float: left;
-    margin: 30px 90px;
-    background: rgb(49, 60, 86);
-    padding: 10px;;
-    box-shadow: 10px 10px 1px rgb(35, 43, 63);
+/* Liena horitzontal, pura estética */
+#lin{
+    border-top: 2px solid rgb(32, 24, 57); /* Borde només dalt */
+    height: 30px; /* Altura per a que hi haja separació entre el 'article' i el 'footer' */
+    width: 700px; /* Ample */
+    margin: 20px auto; /* Marge */
 }
 
-#drc{
-    height: 40px;
-    width: 140px;
-    float: right;
+/* Estil de la caixa de text de la esquerra */
+#izq{
+    height: 100px; /* Altura */
+    width: 300px; /* Ample */
+    float: left; /* Per a que estiga a l'esquerra */
     margin: 30px 90px;
-    text-align: right;
     background: rgb(49, 60, 86);
     padding: 10px;
-    box-shadow: 10px 10px 1px rgb(35, 43, 63);
+    box-shadow: 10px 10px 1px rgb(35, 43, 63); /* Sombra de la caixa */
+}
+
+/* Estil de la caixa de text de la dreta */
+#drc{
+    height: 40px; /* Altura */
+    width: 140px; /* Ample */
+    float: right; /* Per a que estiga a la dreta */
+    margin: 30px 90px; /* Margens verticals y horitzontals */
+    text-align: right; /* Alinear el text a la dreta */
+    background: rgb(49, 60, 86); /* Color de fons */
+    padding: 10px; /* Per a que el text no estiga apegat als bordes */
+    box-shadow: 10px 10px 1px rgb(35, 43, 63); /* Sombra de la caixa */
 }

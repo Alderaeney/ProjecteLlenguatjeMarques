@@ -1,50 +1,70 @@
+/* Estil de la página 'contact.html' */
+
+/* Imatge per al 'header' */
+header{
+    background: url("../img/header.png") no-repeat center;
+    background-size: cover;
+}
+
+/* Ample y posició del formulari */
 form {
     width: 30%;
     margin: 0 auto;
 }
 
+/* Estil dels objectes amb la clase .input */
 .input{
-    border: gray solid 2px;
-    border-radius: 4px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
-    background: lightslategray;
+    border: gray solid 2px; /* Borde per defecte dels input */
+    border-radius: 4px; /* Redondejat dels bordes */
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3); /* Sombre de la caixa dels 'input' */
+    background: lightslategray; /* Color de fons */
 }
 
+/* Estil dels 'input' amb el id #name i #email */
 #name, #email {
-    width: 300px;
-    height: 25px;
-    padding: 10px;
+    width: 300px; /* Ample */
+    height: 25px; /* Altura */
+    padding: 10px; /* Separació del text dels bordes de la caixa */
 }
 
+/* Estil del 'input' amd el id #message */
 #message{
-    width: 300px;
-    padding: 10px;
+    width: 300px; /* Ample */
+    padding: 10px; /* Separació del text dels bordes de la caixa */
 }
 
+/* Estil del borde dels .input amb l'etiqueta required */
 .input:required{
     border: lightblue solid 1px;
 }
 
+/* Estil del borde dels .input valids */
 .input:valid{
     border: lightgreen solid 2px; 
 }
 
+/* Estil del borde dels .input invalids */
 .input:invalid{
     border: red solid 1px;
 }
 
-h1 {
-    width: fit-content;
-    margin: 10px;
-    color: rgb(49, 60, 86);
+/* Estil dels 'h2' dins de 'article' */
+article h2 {
+    width: fit-content; /* Ample */
+    margin: 10px; /* Separació dels elements */
+    margin-left: -40px; /* Per a que estiga un poc cap a l'esquerra */
+    text-align: left; /* Alinear el text a l'esquerra */
+    color: rgb(49, 60, 86); /* Color de la lletra */
 }
 
+/* Estil del 'input' #submit */
 #submit{
-    width: fit-content;
-    padding: 10px;
-    margin: 20px 30%;
-    background: lightslategray;
-    color: darkslategray;
-    border-radius: 4px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    width: fit-content; /* Ample */
+    padding: 10px; /* Separació del text del borde */
+    margin: 20px 30%; /* Mage vertical de 20px i horitzontal de 30% per a alinear al mig */
+    background: lightslategray; /* Color de fons */
+    color: darkslategray; /* Color de lletra */
+    border-radius: 4px; /* Redondeig del borde */
+    border: none; /* Per a llevar-li el borde */
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3); /* Sombra de la caixa */
 }

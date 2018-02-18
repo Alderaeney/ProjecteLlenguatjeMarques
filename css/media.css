@@ -1,28 +1,35 @@
+/* Estil de la página 'media.html' */
+
+/* Imatge del 'header' */
 header{
     background: url("../img/header.png") no-repeat center;
     background-size: cover;
 }
 
+/* Estil dels 'p' dels 'article' */
 article p{
-    height: 270px;
-    background-color: rgb(49, 60, 86);
-    text-align: right;
+    height: 270px; /* Altura */
+    background-color: rgb(49, 60, 86); /* Color de fons */
+    text-align: right; /* Alinear el text a la dreta */
 }
 
+/* Estil dels 'span' al text */
 span{
-    display: block;
-    width: 40%;
-    margin: 10px auto;
-    font-weight: bold;
+    display: block; /* Visualitzar-los com a 'block' */
+    width: 40%; /* Ample */
+    margin: 10px auto; /* Centrar el 'span' */
+    font-weight: bold; /* Fer el text en negrita */
 }
 
+/* Estil dels 'video' */
 video{
-    display: block;
-    margin: 0 auto;
+    display: block; /* Visutlitzar-los com a block */
+    margin: 0 auto; /* Centrar-los */
 }
 
+/* Estil dels 'audio' */
 audio{
-    width: 40%;
-    display: block;
-    margin: 0 auto;
+    width: 40%; /* Ample */
+    display: block; /* Visualitzar-los com a block */
+    margin: 0 auto; /* Centrar-los */
 }

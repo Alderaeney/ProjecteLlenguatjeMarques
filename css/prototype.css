@@ -1,26 +1,32 @@
+/* Estil de la página 'prototype.html' */
+
+/* Imatge per al 'header' */
 header{
     background: url("../img/header_game_prot1.png") no-repeat center;
     background-size: cover;
 }
 
+/* Altura dels 'p' dins de 'article' */
 article p{
     height: 120px;    
 }
 
+/* Estil del 'p' #lost */
 #lost{
-    padding-right: 170px;
-    background: url("../img/sprite-nobg.gif") no-repeat center right, rgb(49, 60, 86);
-    background-size: 150px 150px;
-    padding-left: 20px;
-    padding-top: 50px;
-
+    padding-right: 170px; /* Separació a la dreta per a posar l'imatge de fons */
+    background: url("../img/sprite-nobg.gif") no-repeat center right, rgb(49, 60, 86); /* Imatge de fons i color de fons per a la resta del 'p' */
+    background-size: 150px 150px; /* Tamany de l'imatge de fons */
+    padding-left: 20px; /* Separació a l'esquerra per a que no toque el borde */
+    padding-top: 50px; /* Separació del text per a centrar-lo */
 }
 
+/* Estil del 'p' #scripting */
 #scripting {
-    padding-left: 190px;
-    background: url("../img/script.png") no-repeat center left, rgb(49, 60, 86);
-    background-position-x: 20px;
-    background-size: 150px 150px;
-    padding-right: 20px;
-    padding-top: 50px;
+    padding-left: 190px; /* Separació a l'esquerra per a l'imatge de fons */
+    background: url("../img/script.png") no-repeat center left, rgb(49, 60, 86); /* Imatge de fons i color de fons per a la resa del 'p' */
+    background-position-x: 20px; /* Separació del borde de l'imatge de fons */
+    background-size: 150px 150px; /* Tamany de l'imatge de fons */
+    padding-right: 20px; /* Separació del text a la dreta */
+    padding-top: 50px; /* Separació superior per a centrar el text */
+    text-align: right; /* Alinear el text a la dreta */
 }

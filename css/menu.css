@@ -1,55 +1,68 @@
+/* Estil del menú */
+
+/* Estil del 'nav' */
 nav{
-    width: 1200px;
-    background: #1f1529;
+    width: 1200px; /* Ample */
+    background: #1f1529; /* Color de fons */
 }
 
+/* Color del menu dropdown */
 .color-drop {
     background: white;
 }
 
+/* Estil dels 'li' dins de 'nav' */
 nav li {
-    display: inline-block;
-    background: #1f1529;
+    display: inline-block; /* Visualització en inline-block */
+    background: #1f1529; /* Color de fons */
 }
 
+/* Imprtar el tipus de lletra Noto Sans */
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans');
 
+/* Estil dels 'a' dins de 'li' */
 nav li a {
-    text-decoration: none;
-    color: #69587a;
-    display: block;
-    padding: 30px 16px;
-    transition: .5s;
-    font-family: 'Noto Sans', sans-serif;
-    background: #1f1529;
+    text-decoration: none; /* Llevar la decoració del 'a' */
+    color: #69587a; /* Color de lletra */
+    display: block; /* Mode de visualització */
+    padding: 30px 16px; /* Separació dels bordes */
+    transition: .5s; /* Transició per a cuan poses el cursor damunt */
+    font-family: 'Noto Sans', sans-serif; /* Tipografia */
+    background: #1f1529; /* Color de fons del 'a' */
 }
 
+/* Color de fons de l'entrada activa */
 .active{
     background: #291241;
 }
 
+/* Color de fons del 'a' amb el cursor damunt */
 nav li a:hover{
     background: #291241;
 }
 
+/* Posició del desplegable */
 .dropdown{
     position: relative;
 }
 
+/* Estil del desplegable */
 .dropdown-content{
-    display: none;
-    position: absolute;
-    background: #ffffff;
-    min-width: 160px;
-    box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.2);
-    padding: 10px;
+    display: none; /* No es visualitza fins que es posa el ratolí damunt */
+    position: absolute; /* Posició del contingut */
+    background: #ffffff; /* Color de fons */
+    min-width: 160px; /* Ample minim */
+    box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.2); /* Sombra del desplegable */
+    padding: 10px; /* Separació dels bordes */
     z-index: 1;
 }
 
+/* Cuan es posa el ratolí damunt de l'entrada amb la clase .dropdown es visualitza el desplegable com a block */
 .dropdown:hover .dropdown-content{
     display: block;
 }
 
+/* Cambia el color del contingut del desplegable cuan poses el ratolí damunt */
 .drop-cont:hover{
     background: rgb(255, 255, 255);
 }

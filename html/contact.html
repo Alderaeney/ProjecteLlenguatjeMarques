@@ -13,7 +13,12 @@
 <body>
     <div id="pagina">
         <header>
-            
+            <h1>
+                Contact me
+            </h1>
+            <p>
+                A simple contact form to send me your toughts
+            </p>
         </header>
         <nav>
             <ul>
@@ -38,16 +43,19 @@
                 <li>
                     <a href="./media.html">Media</a>
                 </li>
+                <li>
+                    <a href="./about.html">About</a>
+                </li>
             </ul>
         </nav>
         <main>
             <article>
                 <form  action="mailto:clase@airmail.cc" method="get" enctype="text/plain">
-                <h1>Your name:</h1><br>
+                <h2>Your name:</h2><br>
                 <input name="name" type="text" value="" id="name" class="input" required/><br>
-                <h1>Your email:</h1><br>
+                <h2>Your email:</h2><br>
                 <input name="email" type="text" value="" id="email" class="input" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"/><br>
-                <h1>Your message:</h1><br>
+                <h2>Your message:</h2><br>
                 <textarea name="message" rows="7" cols="30" id="message" class="input" required></textarea><br>
                 <input type="submit" id="submit" value="Send email"/>
                 </form> 
