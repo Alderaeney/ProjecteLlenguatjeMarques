@@ -17,8 +17,11 @@ nav li {
     background: #1f1529; /* Color de fons */
 }
 
-/* Imprtar el tipus de lletra Noto Sans */
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+/* Imprtació de la font per defecte de la página */
+@font-face{
+    font-family: "Noto Sans";
+    src: url("../fonts/NotoSans-Regular.ttf");
+}
 
 /* Estil dels 'a' dins de 'li' */
 nav li a {

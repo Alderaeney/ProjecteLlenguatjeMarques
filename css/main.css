@@ -8,7 +8,10 @@
 }
 
 /* Imprtació de la font per defecte de la página */
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+@font-face{
+    font-family: "Noto Sans";
+    src: url("../fonts/NotoSans-Regular.ttf");
+}
 
 /* Color de fons de la página */
 body{
