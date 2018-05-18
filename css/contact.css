@@ -68,3 +68,13 @@ article h2 {
     border: none; /* Per a llevar-li el borde */
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3); /* Sombra de la caixa */
 }
+
+label {
+	color: rgb(49, 60, 86);
+
+}
+
+#error p {
+	background-color: rgb(49, 60, 86);
+
+}

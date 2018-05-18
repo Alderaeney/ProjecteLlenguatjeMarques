@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,9 +10,15 @@
     <link rel="stylesheet" href="../css/contact.css">
     <link rel="stylesheet" href="../css/menu.css">
     <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+    <script src="../js/fecha.js"></script>
+    <script src="../js/color.js"></script>
+    <script src="../js/formulario.js"></script>
 </head>
+
 <body>
     <div id="pagina">
+        <div id="rellotge">
+        </div>
         <header>
             <h1>
                 Contact me
@@ -50,15 +57,25 @@
         </nav>
         <main>
             <article>
-                <form  action="mailto:clase@airmail.cc" method="get" enctype="text/plain">
-                <h2>Your name:</h2><br>
-                <input name="name" type="text" value="" id="name" class="input" required/><br>
-                <h2>Your email:</h2><br>
-                <input name="email" type="text" value="" id="email" class="input" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"/><br>
-                <h2>Your message:</h2><br>
-                <textarea name="message" rows="7" cols="30" id="message" class="input" required></textarea><br>
-                <input type="submit" id="submit" value="Send email"/>
-                </form> 
+                <form action="" id="formulario" method="post" enctype="text/plain">
+                    <h2>Your name:</h2>
+                    <br>
+                    <input name="name" type="text" value="" id="name" class="input" />
+                    <br>
+                    <h2>Your email:</h2>
+                    <br>
+                    <input name="email" type="text" value="" id="email" class="input" />
+                    <br>
+                    <h2>Your message:</h2>
+                    <br>
+		    <textarea name="message" rows="7" cols="30" id="message" class="input" ></textarea><div id="contador"></div>
+                    <br>
+		    <input type="checkbox" name="privacy" id="privacy"><label for="privacy">I accept privacy policy</label>
+		    <br>
+                    <input type="button" id="enviar" value="Send email" />
+                </form>
+		<div id="error" class="error">
+		</div>
             </article>
         </main>
         <footer>
@@ -68,16 +85,18 @@
                     No Name Productions >_
                 </h4>
                 <p>
-                    Valencia, Plaza Mayor Nº 50, 45560 <br>
-                    Spain
+                    Valencia, Plaza Mayor Nº 50, 45560
+                    <br> Spain
                 </p>
             </div>
             <div id="drc">
                 <p>
-                    License GPL v3.0 <br>
+                    License GPL v3.0
+                    <br>
                 </p>
             </div>
         </footer>
     </div>
 </body>
+
 </html>

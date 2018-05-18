@@ -117,3 +117,13 @@ footer{
     padding: 10px; /* Per a que el text no estiga apegat als bordes */
     box-shadow: 10px 10px 1px rgb(35, 43, 63); /* Sombra de la caixa */
 }
+
+#rellotge{
+    float: left;
+    display: block;
+    width: fit-content;
+    margin: 20px;
+    color: rgb(27, 22, 42);
+    background: rgb(60, 51, 88);
+    padding: 20px;
+}
